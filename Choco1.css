@@ -1,0 +1,98 @@
+div,
+div:before,
+div:after {
+  display: block;
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://i.postimg.cc/RFvH4Fk2/chocolate-183543-1280.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div.discontinued {
+  width: 100vmin;
+  height: 100vmin;
+  display: flex;
+  transform: scale(1.2);
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: radial-gradient(
+        ellipse at 50% 120%,
+        transparent 2.6vmin,
+        #7a311e 2.6vmin,
+        #7a311e 3vmin,
+        transparent 3vmin
+      )
+      calc(-5vmin + 34vmin) calc(-10vmin + 38vmin) / 20vmin 10vmin no-repeat,
+    radial-gradient(
+        ellipse at 50% 120%,
+        transparent 2.6vmin,
+        #7a311e 2.6vmin,
+        #7a311e 3vmin,
+        transparent 3vmin
+      )
+34vmin) / 1.5vmin 1vmin no-repeat,
+    linear-gradient(35deg, #bda293 1vmin, transparent 0.5vmin)
+      calc(-5vmin + 37vmin) calc(-10vmin + 35vmin) / 1.5vmin 1vmin no-repeat,
+    linear-gradient(75deg, #bda293 1vmin, transparent 0.5vmin)
+      calc(-5vmin + 40vmin) calc(-10vmin + 40vmin) / 1.5vmin 1vmin no-repeat,
+    linear-gradient(15deg, #bda293 1vmin, transparent 0.5vmin)
+      calc(-5vmin + 47vmin) calc(-10vmin + 35vmin) / 1.5vmin 1vmin no-repeat,
+    linear-gradient(75deg, #bda293 1vmin, transparent 0.5vmin)
+      calc(-5vmin + 50vmin) calc(-10vmin + 32vmin) / 1.5vmin 1vmin no-repeat,
+    linear-gradient(15deg, #bda293 1vmin, transparent 0.5vmin)
+      calc(-5vmin + 67vmin) calc(-10vmin + 35vmin) / 1.5vmin 1vmin no-repeat,
+    linear-gradient(75deg, #bda293 1vmin, transparent 0.5vmin)
+      calc(-5vmin + 72vmin) calc(-10vmin + 36vmin) / 1.5vmin 1vmin no-repeat,
+    linear-gradient(15deg, #bda293 1vmin, transparent 0.5vmin)
+      calc(-5vmin + 78vmin) calc(-10vmin + 50vmin) / 1.5vmin 1vmin no-repeat,
+    linear-gradient(75deg, #bda293 1vmin, transparent 0.5vmin)
+      calc(-5vmin + 84vmin) calc(-10vmin + 60vmin) / 1.5vmin 1vmin no-repeat,
+    radial-gradient(
+        ellipse at 90% 110%,
+        transparent 1.8vmin,
+        #c78f74 1.8vmin,
+        #c78f74 2vmin,
+        transparent 1vmin
+          radial-gradient(ellipse at left top, #865036 3vmin, transparent 1vmin)
+      calc(-5vmin + 27vmin) calc(-10vmin + 48vmin) / 6vmin 14vmin no-repeat,
+    radial-gradient(ellipse, #865036 4vmin, transparent 1vmin)
+      calc(-5vmin + 17.5vmin) calc(-10vmin + 44vmin) / 12vmin 18vmin no-repeat,
+    radial-gradient(ellipse at left, #865036 4vmin, transparent 1vmin)
+      calc(-5vmin + 27vmin) calc(-10vmin + 44vmin) / 6vmin 18vmin no-repeat,
+    radial-gradient(ellipse, #865036 4vmin, transparent 1vmin)
+      calc(-5vmin + 16vmin) calc(-10vmin + 49vmin) / 12vmin 18vmin no-repeat,
+    radial-gradient(ellipse at left, #865036 3vmin, transparent 1vmin)
+      calc(-5vmin + 25vmin) calc(-10vmin + 48.5vmin) / 6vmin 18vmin no-repeat,
+    repeating-linear-gradient(
+        80deg,
+}
+
+.main {
+  color: #ffffff;
+  position: absolute;
+  bottom: 5%;
+  font-weight: 600;
+  font-size: 35px;
+  font-family: "Oswald", sans-serif;
+  text-shadow: 0 2px 2px #512014;
+}
+.main a {
+  color: white;
+  text-shadow: 0 2px 2px #512014;
+}
+.main a:hover {
+  color: rgb(230, 47, 47);
+  text-shadow: 0 2px 2px #ffffff;
+}
